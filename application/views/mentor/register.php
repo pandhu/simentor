@@ -1,6 +1,6 @@
 <?php $this->load->view("template/header");?>
 
-<form class="form-horizontal" method="POST" action="<?php echo base_url()?>m/entorregister/post">
+<form class="form-horizontal" method="POST" action="<?php echo base_url()?>mentor/register/post">
 	<fieldset>
 
 		<!-- Form Name -->

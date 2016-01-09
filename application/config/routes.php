@@ -49,7 +49,12 @@ defined('BASEPATH') OR exit('No direct script access allowed');
 | Examples:	my-controller/index	-> my_controller/index
 |		my-controller/my-method	-> my_controller/my_method
 */
+$route['mentor'] = 'mentorController/index';
+$route['mentee'] = 'menteeController/index';
 $route['mentor/register'] = 'mentorController/register';
+$route['mentor/edit/post/(:num)'] = 'mentorController/update/$1';
+$route['mentor/edit/(:num)'] = 'mentorController/edit/$1';
+$route['mentor/delete/(:num)'] = 'mentorController/delete/$1';
 $route['mentor/register/post'] = 'mentorController/register_post';
 $route['mentee/register'] = 'menteeController/register';
 $route['mentee/register/post'] = 'menteeController/register_post';
