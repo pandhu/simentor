@@ -56,8 +56,13 @@ $route['mentor/edit/post/(:num)'] = 'mentorController/update/$1';
 $route['mentor/edit/(:num)'] = 'mentorController/edit/$1';
 $route['mentor/delete/(:num)'] = 'mentorController/delete/$1';
 $route['mentor/register/post'] = 'mentorController/register_post';
+
 $route['mentee/register'] = 'menteeController/register';
 $route['mentee/register/post'] = 'menteeController/register_post';
+$route['mentee/edit/post/(:num)'] = 'menteeController/update/$1';
+$route['mentee/edit/(:num)'] = 'menteeController/edit/$1';
+$route['mentee/delete/(:num)'] = 'menteeController/delete/$1';
+
 $route['default_controller'] = 'welcome';
 $route['404_override'] = '';
 $route['translate_uri_dashes'] = FALSE;

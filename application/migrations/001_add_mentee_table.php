@@ -51,6 +51,10 @@ class Migration_Add_Mentee_Table extends CI_Migration {
                                 'type' => 'TEXT',
                                 'null' => TRUE,
                         ),
+                        'grade' => array(
+                                'type' => 'INT',
+                                'constraint' => '1',
+                        ),
                         'class_prefix' => array(
                                 'type' => 'VARCHAR',
                                 'constraint' => '7',
