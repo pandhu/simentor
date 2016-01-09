@@ -33,7 +33,7 @@
 				<td><?php echo $element->hp?></td>
 				<td><?php echo $element->email?></td>
 				<td><?php echo $element->age?></td>
-				<td><?php echo strtoupper($element->class_prefix)." ".$element->class?></td>
+				<td><?php echo $element->grade." ".strtoupper($element->class_prefix)." ".$element->class?></td>
 				<td>
 					<div class="btn-group" role="group" aria-label="...">
 						<a class="btn btn-xs btn-primary">Detil</a>

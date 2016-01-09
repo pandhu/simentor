@@ -1,11 +1,12 @@
 <?php $this->load->view("template/header");?>
-
+<div class="row">
+	<div class="col-lg-12">
+	<h1 class="page-header">Tambah Mentor</h1>
+	</div>
+	<!-- /.col-lg-12 -->
+</div>
 <form class="form-horizontal" method="POST" action="<?php echo base_url()?>mentor/register/post">
 	<fieldset>
-
-		<!-- Form Name -->
-		<legend>Register Mentor</legend>
-
 		<!-- Text input-->
 		<div class="form-group">
 			<label class="col-md-4 control-label" for="fn">Nama</label>  
